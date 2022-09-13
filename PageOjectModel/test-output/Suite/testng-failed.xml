@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="pom.irctc.testcase.TC009">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterSuite"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="afterClass"/>
+          <include name="beforeSuite"/>
+          <include name="promptAlert"/>
+          <include name="beforeMethod"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- pom.irctc.testcase.TC009 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
